@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
+      opacity: ['disabled'],
     },
   },
   plugins: [],

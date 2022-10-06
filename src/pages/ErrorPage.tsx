@@ -16,7 +16,7 @@ export const ErrorPage: React.FC = (): JSX.Element => {
         </i>
       </p>
       <Button
-        className="rounded-full bg-slate-900 text-white"
+        className="rounded-full bg-slate-900 text-white px-3 py-2"
         onClick={() => navigate(-1)}
       >
         Go back

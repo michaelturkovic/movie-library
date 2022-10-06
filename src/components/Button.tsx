@@ -9,7 +9,10 @@ type Props = React.ButtonHTMLAttributes<HTMLButtonElement> &
 export const Button: React.FC<Props> = ({ className, children, ...props }) => (
   <button
     {...props}
-    className={clsx('flex focus:outline-none hover:opacity-70 p-2', className)}
+    className={clsx(
+      'focus:outline-none hover:opacity-70 disabled:opacity-50',
+      className
+    )}
   >
     {children}
   </button>
